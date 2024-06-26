@@ -1,19 +1,3 @@
-/*<html>
-  <nav class="navbar navbar-dark bg-dark fixed-top
-    background-color: #cccc99!important">
-    background-color: #cccc99!important
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
-    <button class="navbar-toggler	--bs-warning
---bs-warning-rgb" 	--bs-warning
---bs-warning-rgb type="button" data-bs-toggle="offcanvas" 	--bs-warning
---bs-warning-rgb data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
-*/
-  /*<nav class="navbar navbar-dark bg-dark fixed-top
-   /* background-color: #cccc99!important">
  /*    background-color: #cccc99!important
  /* <div class="container-fluid">
    /*  <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
@@ -27,24 +11,12 @@
 
 
 /*<div class="btn-group" role="group" aria-label="Basic mixed styles example">
-  <button type="button" class="btn btn-danger">Left 1</button>
-  <button type="button" class="btn btn-warning">Middle 2</button>
-  <button type="button" class="btn btn-success">Right 3</button>
-</div>*/
  /*  <button type="button" class="btn btn-danger">Left 1</button>
  /*  <button type="button" class="btn btn-warning">Middle 2</button>
  /*  <button type="button" class="btn btn-success">Right 3</button>
  /*</div>*/
 
 
-<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="d-flex">
-    <div class="toast-body">
-      Welcome to my portfolio!  Please feel free to explore the links and contact me if you have suggestions!
-    </div>
-    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-  </div>
-</div>
  /*<div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
   /* <div class="d-flex">
   /*   <div class="toast-body">
@@ -56,3 +28,178 @@
 
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+ /
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+@@ -75,28 +15,8 @@ <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+</nav>
+<h1>Tim's Portfolio</h1>
+
+<ul class="nav nav-pills nav-justified">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Much longer nav link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+@@ -111,82 +31,15 @@ <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+}
+
+<img src="./biopic1.jpg" />
+      <link rel="stylesheet" href="style.css">
+  <ul class="nav nav-pills nav-justified">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">About Me</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Much longer nav link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link2</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+      <link rel="stylesheet" href="style.css">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+
+
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+@@ -197,14 +50,12 @@ <h2><i class="bi bi-fingerprint"width="32" height="32" fill="danger"></i>About M
+          Please contact me if you have suggestions or comments by clicking the "Conctact" link.
+        Feel free to explore my individual projects below by clicking the buttons, or search the site for specific examples</h2>
+  <form class="container-fluid justify-content-start">
+    <button class="btn btn-outline-success me-2" type="button 1">Main button</button>
+    <button class="btn btn-sm btn-outline-secondary bg-primary-bs-danger
+--bs-danger-rgb
+          <button class="btn btn-outline-success me-2" type="button 2">Main button 2</button>
+        <button class="btn btn-outline-success me-2" type="button 3">Main button 3</button>
+        <button class="btn btn-outline-success me-2" type="button 4">Main button 4</button>
+      " type="button">Smaller button</button>
+        <button class="btn btn-outline-success me-2" type="button"><i class="bi bi-fingerprint"></i>Check button</button>
+
+
+    <h1>Links to my active projects:</h1>
+    <button class="btn btn-outline-success me-2" type="button"><i class="bi bi-fingerprint"></i>Check button</button>
+
+
+
+     <button class="btn btn-outline-success me-2" type="button"><i class="bi bi-play-circle-fill"></i>Pacman button</button>
