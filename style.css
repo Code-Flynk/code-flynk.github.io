@@ -71,7 +71,10 @@ display: flex;
   
 }
 
-
+.grid-container {
+    display: grid;
+    gap: 10px; /* 10px gap between rows and columns */
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
